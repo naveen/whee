@@ -22,6 +22,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:0.25];
 }
 
 - (void)viewDidUnload
@@ -58,6 +61,23 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
+    }
+}
+
+#pragma mark - accelerometer
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+    // accerleration in Gs
+//    NSLog(@"acceleration t x y z: %f %f %f %f", acceleration.timestamp,
+//                                                acceleration.x,
+//                                                acceleration.y,
+//                                                acceleration.z);
+    
+    double const threshold = 1.4;
+    if (fabsf(acceleration.x) > threshold
+        || fabsf(acceleration.y) > threshold
+        || fabsf(acceleration.z) > threshold)
+    {
+        NSLog(@"over threshold");
     }
 }
 

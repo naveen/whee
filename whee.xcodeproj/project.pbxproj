@@ -38,21 +38,21 @@
 		01390E5214CE1C37006B34B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01390E5414CE1C37006B34B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01390E5614CE1C37006B34B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		01390E5A14CE1C37006B34B6 /* whee-Info.plist */ = {isa = PBXFileReference; path = "whee-Info.plist"; sourceTree = "<group>"; };
+		01390E5A14CE1C37006B34B6 /* whee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whee-Info.plist"; sourceTree = "<group>"; };
 		01390E5C14CE1C37006B34B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01390E5E14CE1C37006B34B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		01390E6014CE1C37006B34B6 /* whee-Prefix.pch */ = {isa = PBXFileReference; path = "whee-Prefix.pch"; sourceTree = "<group>"; };
-		01390E6114CE1C37006B34B6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		01390E6014CE1C37006B34B6 /* whee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "whee-Prefix.pch"; sourceTree = "<group>"; };
+		01390E6114CE1C37006B34B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01390E6214CE1C37006B34B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01390E6514CE1C37006B34B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		01390E6814CE1C37006B34B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		01390E6A14CE1C37006B34B6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		01390E6A14CE1C37006B34B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01390E6B14CE1C37006B34B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01390E7214CE1C37006B34B6 /* wheeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wheeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01390E7314CE1C38006B34B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		01390E7B14CE1C38006B34B6 /* wheeTests-Info.plist */ = {isa = PBXFileReference; path = "wheeTests-Info.plist"; sourceTree = "<group>"; };
+		01390E7B14CE1C38006B34B6 /* wheeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wheeTests-Info.plist"; sourceTree = "<group>"; };
 		01390E7D14CE1C38006B34B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		01390E7F14CE1C38006B34B6 /* wheeTests.h */ = {isa = PBXFileReference; path = wheeTests.h; sourceTree = "<group>"; };
+		01390E7F14CE1C38006B34B6 /* wheeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wheeTests.h; sourceTree = "<group>"; };
 		01390E8014CE1C38006B34B6 /* wheeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
